@@ -20,6 +20,12 @@ Bu uygulamada Firebase Veritabanını kullandım
 
 </p>
 
+## Uygulamanın GIF Görüntüleri
+
+<p float="left">
+  <img src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/20210616_121438.gif" width="200"/>&emsp;&emsp;&emsp;
+</p>
+
 ## Kullanmış Olduğum Araçlar 🛠
 
 <li><a href="https://developer.android.com/jetpack/androidx/releases/cardview">CardView</a></li>
@@ -28,10 +34,12 @@ Bu uygulamada Firebase Veritabanını kullandım
 <li><a href="https://developer.android.com/topic/libraries/data-binding">DataBinding</a></li>
 <li><a href="https://developer.android.com/reference/android/app/AlertDialog">AlertDialog</a></li>
 <li><a href="https://developer.android.com/jetpack/androidx/releases/recyclerview?hl=en">RecyclerView</a></li>
+<li><a href="https://firebase.google.com/products/auth">Firebase Authentication</a> & <a href="https://firebase.google.com/products/firestore">Cloud Firestore</a> </li>
 
 
 
-## Mimari Paket Yapısı
+
+## Mimari Paket Yapısı (MVVM)
 ![Architecture](https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/MI%CC%87MARI%CC%87%20PAKET%20YAPISI.png)
 
 
