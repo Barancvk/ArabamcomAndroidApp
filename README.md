@@ -42,7 +42,7 @@ Bu uygulamada Firebase Veritabanını kullandım
 
 
 
-## Mimari Paket Yapısı (MVVM)
+## MVVM Yapısı
 ![Architecture](https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/MI%CC%87MARI%CC%87%20PAKET%20YAPISI.png)
 
 
