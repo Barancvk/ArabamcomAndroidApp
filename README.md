@@ -34,7 +34,7 @@ Bu uygulamada Firebase Veritabanını kullandım
 <li><a href="https://developer.android.com/topic/libraries/data-binding">DataBinding</a></li>
 <li><a href="https://developer.android.com/reference/android/app/AlertDialog">AlertDialog</a></li>
 <li><a href="https://developer.android.com/jetpack/androidx/releases/recyclerview?hl=en">RecyclerView</a></li>
-<li><a href="https://firebase.google.com/products/auth">Firebase Authentication</a> & <a href="https://firebase.google.com/products/firestore">Cloud Firestore</a> </li>
+<li><a href="https://firebase.google.com/products/auth">Firebase Authentication</a>
 
 
 
