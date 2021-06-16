@@ -12,10 +12,10 @@ Bu uygulamada Firebase Veritabanını kullandım
 
 <h2 id="Ekran Görüntüleri">Ekran Görüntüleri</h2>
 <p>
-  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/SPLASH.png" />
-  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/LOGIN.png" alt="SS4" />
-  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/CATEGORY.png" alt="SS4" />
-  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/LI%CC%87ST.png" alt="SS4" />
+  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/SPLASH.png" alt="SS2"/>
+  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/LOGIN.png" alt="SS2" />
+  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/CATEGORY.png" alt="SS2" />
+  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/LI%CC%87ST.png" alt="SS2" />
   <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/GRID.png" alt="SS4" />
   <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/DETAY.png" alt="SS4" />
   <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/INTERNETKONTROL.png" alt="SS4" />
