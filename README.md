@@ -29,6 +29,10 @@ Bu uygulamada Firebase Veritabanını kullandım
   <img src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/20210616_121438.gif" width="200"/>&emsp;&emsp;&emsp;
 </p>
 
+
+## MVVM Yapısı
+![Architecture](https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/MI%CC%87MARI%CC%87%20PAKET%20YAPISI.png)
+
 ## Kullanmış Olduğum Araçlar 🛠
 
 <li><a href="https://developer.android.com/jetpack/androidx/releases/cardview">CardView</a></li>
@@ -38,12 +42,6 @@ Bu uygulamada Firebase Veritabanını kullandım
 <li><a href="https://developer.android.com/reference/android/app/AlertDialog">AlertDialog</a></li>
 <li><a href="https://developer.android.com/jetpack/androidx/releases/recyclerview?hl=en">RecyclerView</a></li>
 <li><a href="https://firebase.google.com/products/auth">Firebase Authentication</a>
-
-
-
-
-## MVVM Yapısı
-![Architecture](https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/MI%CC%87MARI%CC%87%20PAKET%20YAPISI.png)
 
 
 
