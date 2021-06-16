@@ -1,53 +1,48 @@
+# ArabamcomAndroidApp
 
+# ArabamcomAndroidApp
+![appicon](https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/arabamlogo.jpg)
 
-# ArabamcomAndroidApp(https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/arabamlogo.jpg)
+Arabam.com sitesinin android versiyonun benzer uygulamasını yaptım.
 
-Arabam.com sitesinin android halinin kopyası bir uygulamadır. Giriş yapılıp sisteme eklenen araç markalarının araç modellerine ulaşarak detay ekranına yönlendirir.
+Bu uygulamada Firebase Veritabanını kullandım
 
-## Ekran Görüntüleri 
-<p float="left">
-  <img src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/SPLASH.png" />
-  <img src="https://user-images.githubusercontent.com/53263815/116127227-41a9fd80-a6d0-11eb-8955-f4deabb0b59e.png" />
-  <img src="https://user-images.githubusercontent.com/53263815/116127227-41a9fd80-a6d0-11eb-8955-f4deabb0b59e.png" />
-  <img src="https://user-images.githubusercontent.com/53263815/116127227-41a9fd80-a6d0-11eb-8955-f4deabb0b59e.png" />
-  <img src="https://user-images.githubusercontent.com/53263815/116127227-41a9fd80-a6d0-11eb-8955-f4deabb0b59e.png" />
-  
+<h2 id="Ekran Görüntüleri">Ekran Görüntüleri</h2>
+<p>
+  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/SPLASH.png" />
+  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/LOGIN.png" alt="SS2" />
+  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/CATEGORY.png" alt="SS3" />
+  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/LI%CC%87ST.png" alt="SS4" />
+  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/GRID.png" alt="SS5" />
+  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/DETAY.png" alt="SS5" />
+  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/INTERNETKONTROL.png" alt="SS5" />
+  <img height= "400"  src="https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/CIKISYAP.png" />
+
 </p>
 
-## Libraries and tools 🛠
+## Kullanmış Olduğum Araçlar 🛠
+
+<li><a href="https://developer.android.com/jetpack/androidx/releases/cardview">CardView</a></li>
+<li><a href="https://firebase.google.com">Firebase</a></li>
 <li><a href="https://developer.android.com/topic/libraries/architecture/viewmodel">ViewModel</a></li>
-<li><a href="https://developer.android.com/topic/libraries/architecture/livedata">LiveData</a></li>
-<li><a href="https://developer.android.com/guide/navigation">Navigation</a></li>
-<li><a href="https://developer.android.com/training/data-storage/room">Room</a></li>
-<li><a href="https://square.github.io/retrofit/">Retrofit</a></li>
-<li><a href="https://developer.android.com/topic/libraries/architecture/lifecycle">Lifecycle</a></li>
 <li><a href="https://developer.android.com/topic/libraries/data-binding">DataBinding</a></li>
-<li><a href="https://developer.android.com/topic/libraries/architecture/coroutines">Coroutines</a></li>
-<li><a href="https://developer.android.com/training/dependency-injection/hilt-android">Hilt</a></li>
-<li><a href="https://firebase.google.com/products/auth">Firebase Authentication</a> & <a href="https://firebase.google.com/products/firestore">Cloud Firestore</a> </li>
-<li><a href="https://github.com/bumptech/glide">Glide</a> & <a href="https://github.com/coil-kt/coil">Coil</a></li>
-<li><a href="https://material.io/develop/android">Material Design</a></li>
+<li><a href="https://developer.android.com/reference/android/app/AlertDialog">AlertDialog</a></li>
+<li><a href="https://developer.android.com/jetpack/androidx/releases/recyclerview?hl=en">RecyclerView</a></li>
 
-## Live Tracking Features
 
-&emsp;&emsp;<b>Live Coin Tracking</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <b>Live Input Tracking</b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <b>Live Internet Tracking</b>
 
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/53263815/116129290-9c445900-a6d2-11eb-906e-36b6920fb755.gif" width="200"/>&emsp;&emsp;&emsp;
-  <img src="https://user-images.githubusercontent.com/53263815/116129663-0a891b80-a6d3-11eb-9ae9-af106345446f.gif" width="200" />&emsp;&emsp;&emsp;
-  <img src="https://user-images.githubusercontent.com/53263815/116130419-e24dec80-a6d3-11eb-910f-f46efc87a9fc.gif" width="200" />&emsp;&emsp;&emsp;
-</p>
+## Mimari Paket Yapısı
+![Architecture](https://github.com/Barancvk/ArabamcomAndroidApp/blob/main/screen/MI%CC%87MARI%CC%87%20PAKET%20YAPISI.png)
 
-## Architecture
-The app uses <a href="https://developer.android.com/jetpack/guide">MVVM architecture</a> to have a unidirectional flow of data, separation of concern, testability, and a lot more.
 
-![Architecture](https://developer.android.com/topic/libraries/architecture/images/final-architecture.png)
+
+
 
 License
 --------
 
 
-    Copyright 2021 Muhammed Burak Çakır.
+    Copyright 2021 Baran Civak.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
