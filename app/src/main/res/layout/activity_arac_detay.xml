@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detay.AracDetayActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/detayImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/otuzdp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ondp"
+        android:layout_marginTop="@dimen/yirmidp"
+        android:text="Ürün Detay"
+        android:textColor="@color/red"
+        android:textSize="@dimen/otuzsize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detayAracModelTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ondp"
+        android:gravity="center"
+        android:text="Araç Model"
+        android:textSize="@dimen/yirmsize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detayAracYilTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ondp"
+        android:gravity="center"
+        android:text="Araç Yıl"
+        android:textSize="@dimen/yirmsize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ondp"
+        android:layout_marginTop="@dimen/yuzellidp"
+        android:text="Araç Açıklaması"
+        android:textColor="@color/red"
+        android:textSize="@dimen/otuzsize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detayAracAciklamaTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ondp"
+        android:layout_marginTop="@dimen/otuzdp"
+        android:text="Açıklama"
+        android:textStyle="bold" />
+</LinearLayout>

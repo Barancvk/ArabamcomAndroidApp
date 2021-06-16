@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "445182133510",
+    "project_id": "kotlinfinal-15e5c",
+    "storage_bucket": "kotlinfinal-15e5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445182133510:android:e99cd2474a2e1dcd3d8a87",
+        "android_client_info": {
+          "package_name": "com.medipol.kotlinfinalprojesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445182133510-qeg05q8076qjd2nchv6t2fveea5l1775.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXp3_1esEHvcGc_FZ_jW838Cwze488MKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445182133510-qeg05q8076qjd2nchv6t2fveea5l1775.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.kategori.KategoriListesiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/yuzdp"
+        android:orientation="horizontal"
+        android:padding="@dimen/otuzdp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="@dimen/otuzdp"
+            android:layout_height="@dimen/kirkdp"
+            android:layout_marginTop="@dimen/besdp"
+            android:layout_marginRight="@dimen/onbesdp"
+            android:layout_weight="@dimen/weightiki"
+            app:srcCompat="@drawable/user" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="@dimen/ikiyuzatmisdokuzdp"
+            android:layout_height="@dimen/kirkdortdp"
+            android:text="Hoşgeldiniz"
+            android:textColor="@color/red"
+            android:textSize="@dimen/otuzsize"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="@dimen/weightbir"
+        android:orientation="vertical">
+
+        <SearchView
+            android:id="@+id/aramaYapSv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/besdp"
+            android:layout_marginTop="@dimen/otuzdp"
+            android:layout_marginBottom="@dimen/yirmidp"
+            android:paddingLeft="@dimen/besdp"
+            android:text="Sedan Araçlar"
+            android:textColor="@color/red"
+            android:textSize="@dimen/otuzsize"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progressBarKategoriListeleme"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/kategoriListelemeRecylerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/kategori_cardview" />
+
+    </LinearLayout>
+
+</LinearLayout>

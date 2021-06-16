@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ui.login.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/seksendp"
+        app:srcCompat="@drawable/arabam_logo" />
+
+    <EditText
+        android:id="@+id/loginMailEdt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/yetmisdp"
+        android:layout_marginTop="@dimen/kirkdp"
+        android:ems="10"
+        android:hint="@string/login_isim"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/loginSifreEdt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/yetmisdp"
+        android:ems="10"
+        android:hint="@string/login_sifre"
+        android:inputType="textPassword"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:id="@+id/girisYapBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/yirmidp"
+        android:background="@color/red"
+        android:text="@string/login_button"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

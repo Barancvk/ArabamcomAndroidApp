@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">KotlinFinalProjesi</string>
+    <string name="login_isim">Email Adresinizi Giriniz</string>
+    <string name="login_sifre">Şifrenizi Giriniz</string>
+    <string name="splash_activity">SplashActivity</string>
+    <string name="kategori_activity">KategoriListesiActivity</string>
+    <string name="login_activity">LoginActivity</string>
+    <string name="login_button">Giriş Yap</string>
+    <string name="login_bos_kontrolu">Lütfen Boş Geçmeyiniz</string>
+    <string name="login_onay_giris">Giriş Başarılı. Anasayfaya Yönlendiriliyorsunuz</string>
+    <string name="login_red_giris">Böyle bir kullanıcı bulunamamaktadir.</string>
+    <string name="splash_internet_kontrol">İnternet Bağlantınız Yok !</string>
+    <string name="splash_internet_kontrol_gerekli">Uygulamayı Kullanmak İçin İnternet Gereklidir</string>
+    <string name="splash_internet_kontrol_ayarlara_git">Ayarlara Git</string>
+    <string name="splash_internet_kontrol_kapat">Kapat</string>
+    <string name="kategori_uyari">Uyarı</string>
+    <string name="kategori_uyari2">Uygulamadan Çıkmak İstiyor musunuz</string>
+    <string name="kategori_uyari_evet">Evet</string>
+    <string name="kategori_uyari_hayir">Hayır</string>
+</resources>

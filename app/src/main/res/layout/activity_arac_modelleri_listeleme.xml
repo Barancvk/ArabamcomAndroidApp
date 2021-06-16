@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.arac.AracModelleriListelemeActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/besdp"
+        android:layout_marginTop="@dimen/ondp"
+        android:text="Araç Modelleri"
+        android:textColor="@color/red"
+        android:textSize="@dimen/yirmibessize"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/kirkdp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/defaultSiralamaBtn"
+            android:layout_width="@dimen/otuzdp"
+            android:layout_height="@dimen/otuzdp"
+            android:layout_marginLeft="@dimen/ondp"
+            android:layout_marginRight="@dimen/ondp"
+            android:background="@drawable/listicon"
+            android:enabled="true" />
+
+        <Button
+            android:id="@+id/gridSiralamaBtn"
+            android:layout_width="@dimen/otuzdp"
+            android:layout_height="@dimen/otuzdp"
+            android:background="@drawable/menuicon" />
+
+        <Button
+            android:id="@+id/SiralaBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ondp"
+            android:layout_weight="@dimen/weightbir"
+            android:background="@color/grey"
+            android:text="Sırala" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBarAracListeleme"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/aracModelListelemeRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/ellidp"
+        tools:listitem="@layout/arac_model_cardview" />
+
+</LinearLayout>

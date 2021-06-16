@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name = "ucyuzdp">300dp</dimen>
+    <dimen name = "ikiyuzyetmisdp">270dp</dimen>
+    <dimen name = "ikiyuzdoksanbesdp">295dp</dimen>
+    <dimen name = "seksendp">80dp</dimen>
+    <dimen name = "yetmisdp">70dp</dimen>
+    <dimen name = "kirkdp">40dp</dimen>
+    <dimen name = "yirmidp">20dp</dimen>
+    <dimen name = "otuzdp">30dp</dimen>
+    <dimen name = "besdp">5dp</dimen>
+    <dimen name = "onbesdp">15dp</dimen>
+    <dimen name = "ondp">10dp</dimen>
+    <dimen name = "ikiyuzatmisdokuzdp">269dp</dimen>
+    <dimen name = "yuzbesdp">105dp</dimen>
+    <dimen name = "yirmisekizdp">28dp</dimen>
+    <dimen name = "yuzaltidp">106dp</dimen>
+    <dimen name = "kirkdortdp">44dp</dimen>
+    <dimen name = "yuzdp">-100dp</dimen>
+    <dimen name = "ellidp">50dp</dimen>
+    <dimen name = "ucdp">3dp</dimen>
+    <dimen name = "yuzellidp">150dp</dimen>
+    <dimen name = "ikiyuzdp">200dp</dimen>
+    <dimen name = "otuzsize">30sp</dimen>
+    <dimen name = "yirmsize">20sp</dimen>
+    <dimen name = "yirmibessize">25sp</dimen>
+    <dimen name = "weightiki">2</dimen>
+    <dimen name = "weightbir">1</dimen>
+</resources>
